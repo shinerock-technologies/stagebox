@@ -29,7 +29,7 @@ export const getUserConfirmationEmail = (data: {
   useCase: string;
 }) => {
   return {
-    subject: "Thanks for your interest!",
+    subject: "Welcome to the StageBox Beta Program",
     html: `
       <!DOCTYPE html>
       <html>
@@ -37,43 +37,67 @@ export const getUserConfirmationEmail = (data: {
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
         </head>
-        <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;">
-          <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 10px 10px 0 0; text-align: center;">
-            <h1 style="color: white; margin: 0; font-size: 28px;">Thank You, ${data.name}!</h1>
+        <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #e2e8f0; max-width: 600px; margin: 0 auto; padding: 0; background-color: #0a0a0a;">
+          <!-- Header with Logo -->
+          <div style="background-color: rgb(20, 20, 20); padding: 30px 20px; border-bottom: 1px solid #334155;">
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <div style="width: 8px; height: 8px; border-radius: 50%; background-color: #22c55e;"></div>
+              <span style="font-size: 24px; font-weight: bold; color: #ffffff;">StageBox</span>
+            </div>
           </div>
           
-          <div style="background: #f9f9f9; padding: 30px; border-radius: 0 0 10px 10px;">
-            <p style="font-size: 16px; margin-bottom: 20px;">
-              We've received your submission and are excited to learn more about your use case.
+          <!-- Main Content -->
+          <div style="background-color: rgb(20, 20, 20); padding: 40px 30px;">
+            <h1 style="color: #ffffff; font-size: 28px; margin: 0 0 20px 0; font-weight: 600;">
+              Thanks for your interest, ${data.name}!
+            </h1>
+            
+            <p style="font-size: 16px; color: #cbd5e1; margin-bottom: 24px; line-height: 1.6;">
+              We've received your beta program application and are excited to learn more about how you plan to use StageBox.
             </p>
             
-            <div style="background: white; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #667eea;">
-              <h3 style="margin-top: 0; color: #667eea;">Your Submission Details:</h3>
-              <p style="margin: 10px 0;"><strong>Position:</strong> ${data.position}</p>
-              <p style="margin: 10px 0;"><strong>Use Case:</strong></p>
-              <p style="margin: 10px 0; padding: 10px; background: #f5f5f5; border-radius: 4px;">${data.useCase}</p>
-            </div>
-            
-            <p style="font-size: 16px; margin: 20px 0;">
-              Our team will review your information and get back to you shortly. We typically respond within 24-48 hours.
-            </p>
-            
-            <div style="background: #fff3cd; border: 1px solid #ffc107; padding: 15px; border-radius: 8px; margin: 20px 0;">
-              <p style="margin: 0; font-size: 14px;">
-                <strong>💡 In the meantime:</strong> Feel free to explore our resources or reach out if you have any questions.
+            <!-- Submission Details Box -->
+            <div style="background-color: #1e293b; padding: 24px; border-radius: 8px; margin: 24px 0; border-left: 4px solid #22c55e;">
+              <h3 style="margin: 0 0 16px 0; color: #22c55e; font-size: 18px; font-weight: 600;">Your Submission Details</h3>
+              <p style="margin: 12px 0; color: #e2e8f0;">
+                <strong style="color: #ffffff;">Position:</strong> ${data.position}
+              </p>
+              <p style="margin: 12px 0 8px 0; color: #ffffff; font-weight: 600;">Use Case:</p>
+              <p style="margin: 0; padding: 16px; background-color: rgb(20, 20, 20); border-radius: 6px; color: #cbd5e1; line-height: 1.6;">
+                ${data.useCase}
               </p>
             </div>
             
-            <hr style="border: none; border-top: 1px solid #ddd; margin: 30px 0;">
+            <!-- What's Next -->
+            <div style="background-color: #1e293b; padding: 20px; border-radius: 8px; margin: 24px 0; border: 1px solid #334155;">
+              <p style="margin: 0; font-size: 15px; color: #cbd5e1;">
+                <strong style="color: #22c55e;">⚡ What's Next:</strong> Our team will review your application and reach out within 24-48 hours with next steps for the beta program.
+              </p>
+            </div>
             
-            <p style="color: #666; font-size: 14px; text-align: center; margin: 0;">
-              If you have any immediate questions, feel free to reply to this email.
+            <!-- Why StageBox -->
+            <div style="margin: 32px 0;">
+              <h3 style="color: #ffffff; font-size: 18px; margin: 0 0 16px 0;">Why StageBox?</h3>
+              <p style="color: #94a3b8; font-size: 14px; line-height: 1.6; margin: 0;">
+                Professional stage timing that works offline. Sync your timer, cue light, and pedal with zero latency — no cloud, no lag, no dropped connections.
+              </p>
+            </div>
+            
+            <hr style="border: none; border-top: 1px solid #334155; margin: 32px 0;">
+            
+            <p style="color: #64748b; font-size: 14px; text-align: center; margin: 0;">
+              Questions? Just reply to this email — we're here to help.
             </p>
           </div>
           
-          <div style="text-align: center; padding: 20px; color: #999; font-size: 12px;">
-            <p style="margin: 5px 0;">© ${new Date().getFullYear()} All rights reserved.</p>
-            <p style="margin: 5px 0;">This email was sent because you submitted a form on our website.</p>
+          <!-- Footer -->
+          <div style="background-color: rgb(20, 20, 20); padding: 24px 30px; border-top: 1px solid #334155; text-align: center;">
+            <p style="margin: 0 0 8px 0; color: #64748b; font-size: 12px;">
+              © ${new Date().getFullYear()} StageBox Beta Program | StageBox by ShineRock Technologies LLC
+            </p>
+            <p style="margin: 0; color: #475569; font-size: 11px;">
+              This email was sent because you applied for the StageBox beta program.
+            </p>
           </div>
         </body>
       </html>
