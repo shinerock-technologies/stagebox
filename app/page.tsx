@@ -1,6 +1,7 @@
 import Nav from "@/components/Nav";
 import HeroAlt from "@/components/HeroAlt";
-import HeroSecondaryAltAlt from "@/components/HeroSecondaryAltAlt";
+// import HeroSecondaryAltAlt from "@/components/HeroSecondaryAltAlt";
+import Overview from "@/components/Overview";
 import Intro from "@/components/Intro";
 import ComparisonTables from "@/components/ComparisonTables";
 import Features from "@/components/Features";
@@ -55,7 +56,7 @@ export default function Home() {
           iframeUrl="https://timer-pro-sandy.vercel.app/room/demo?demoTime=100&timerId=timer-3&playing=true"
           imageUrl={data.hero_image_url}
         />
-        <HeroSecondaryAltAlt
+        {/* <HeroSecondaryAltAlt
           colorIndex={0}
           label={data.hero_secondary.label}
           title={data.hero_secondary.title}
@@ -64,6 +65,15 @@ export default function Home() {
           ctaUrl={data.hero_secondary.cta_url}
           ipadUrl="https://timer-pro-sandy.vercel.app/display?room=demo&clock=false&agenda=true&messages=false"
           iphoneUrl="https://timer-pro-sandy.vercel.app/display?room=demo&clock=true&agenda=false&messages=false"
+        /> */}
+        <Overview
+          colorIndex={0}
+          label={data.hero_secondary.label}
+          title={data.hero_secondary.title}
+          description={data.hero_secondary.description}
+          ctaText={data.hero_secondary.cta_text}
+          ctaUrl={data.hero_secondary.cta_url}
+          ipadUrl="https://timer-pro-sandy.vercel.app/display?room=demo&clock=false&agenda=true&messages=false"
         />
         <Intro colorIndex={1} data={sections.intro} />
         <ComparisonTables colorIndex={2} data={sections.comparison_tables} />

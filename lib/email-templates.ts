@@ -39,8 +39,27 @@ export const getUserConfirmationEmail = (data: {
         <head>
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta name="color-scheme" content="dark">
+          <meta name="supported-color-schemes" content="dark">
+          <style>
+            :root {
+              color-scheme: dark;
+            }
+            @media (prefers-color-scheme: dark) {
+              body {
+                background-color: #0a0a0a !important;
+                color: #e2e8f0 !important;
+              }
+            }
+            @media (prefers-color-scheme: light) {
+              body {
+                background-color: #0a0a0a !important;
+                color: #e2e8f0 !important;
+              }
+            }
+          </style>
         </head>
-        <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #e2e8f0; max-width: 600px; margin: 0 auto; padding: 0; background-color: #0a0a0a;">
+        <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #e2e8f0 !important; max-width: 600px; margin: 0 auto; padding: 0; background-color: #0a0a0a !important;">
           <!-- Header with Logo -->
           <div style="background-color: rgb(20, 20, 20); padding: 30px 20px; border-bottom: 1px solid #334155;">
             <table cellpadding="0" cellspacing="0" border="0">
