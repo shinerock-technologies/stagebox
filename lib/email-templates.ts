@@ -28,6 +28,9 @@ export const getUserConfirmationEmail = (data: {
   position: string;
   useCase: string;
 }) => {
+  // Extract first name from full name
+  const firstName = data.name.split(" ")[0];
+
   return {
     subject: "Welcome to the StageBox Beta Program",
     html: `
@@ -55,7 +58,7 @@ export const getUserConfirmationEmail = (data: {
           <!-- Main Content -->
           <div style="background-color: rgb(20, 20, 20); padding: 40px 30px;">
             <h1 style="color: #ffffff; font-size: 28px; margin: 0 0 20px 0; font-weight: 600;">
-              Thanks for your interest, ${data.name}!
+              Thanks for your interest, ${firstName}!
             </h1>
             
             <p style="font-size: 16px; color: #cbd5e1; margin-bottom: 24px; line-height: 1.6;">
@@ -77,7 +80,7 @@ export const getUserConfirmationEmail = (data: {
             <!-- What's Next -->
             <div style="background-color: #1e293b; padding: 20px; border-radius: 8px; margin: 24px 0; border: 1px solid #334155;">
               <p style="margin: 0; font-size: 15px; color: #cbd5e1;">
-                <strong style="color: #22c55e;">⚡ What's Next:</strong> Our team will review your application and reach out within 24-48 hours with next steps for the beta program.
+                <strong style="color: #22c55e;">⚡ What's Next:</strong> Our team will review your application and reach out shortly with next steps for the beta program.
               </p>
             </div>
             
