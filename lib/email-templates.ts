@@ -40,10 +40,16 @@ export const getUserConfirmationEmail = (data: {
         <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #e2e8f0; max-width: 600px; margin: 0 auto; padding: 0; background-color: #0a0a0a;">
           <!-- Header with Logo -->
           <div style="background-color: rgb(20, 20, 20); padding: 30px 20px; border-bottom: 1px solid #334155;">
-            <div style="display: flex; align-items: center; gap: 8px;">
-              <div style="width: 8px; height: 8px; border-radius: 50%; background-color: #22c55e;"></div>
-              <span style="font-size: 24px; font-weight: bold; color: #ffffff;">StageBox</span>
-            </div>
+            <table cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td style="vertical-align: middle; padding-right: 8px;">
+                  <div style="width: 8px; height: 8px; border-radius: 50%; background-color: #22c55e;"></div>
+                </td>
+                <td style="vertical-align: middle;">
+                  <span style="font-size: 24px; font-weight: bold; color: #ffffff; line-height: 1;">StageBox</span>
+                </td>
+              </tr>
+            </table>
           </div>
           
           <!-- Main Content -->
