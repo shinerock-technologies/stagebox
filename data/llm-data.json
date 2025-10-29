@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "title": "Percepta - LLM SEO for the Age of AI Search",
+    "description": "Understand and influence how AI models like ChatGPT, Claude, and Gemini describe your brand."
+  },
+  "brand": "Percepta",
+  "headline": "LLM SEO for the Age of AI Search",
+  "subheadline": "Monitor, analyze, and optimize how large language models perceive your brand across AI assistants.",
+  "hero_cta_primary": "Request Demo",
+  "hero_cta_secondary": "Join Beta",
+  "hero_cta_redirect_url": "#cta_section",
+  "hero_image_url": "/llmseo-dashboard.png",
+  "hero_secondary": {
+    "label": "Overview",
+    "title": "Own Your Brand in the AI Era",
+    "description": "Percepta helps you see what ChatGPT, Claude, and Gemini say about your company — and gives you the insights to shape it. Track mentions, compare competitors, and guide your brand narrative where it matters most.",
+    "cta_text": "Learn More",
+    "cta_url": "#cta_section",
+    "image_url": "/overview.png"
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Why Percepta?",
+      "subtitle": "Percepta vs. Traditional SEO Tools",
+      "text": "Search engines are no longer the gatekeepers — language models are. Traditional SEO tools stop at Google rankings; Percepta measures your true presence in AI-driven answers.",
+      "image_url": "",
+      "comparison_points": [
+        {
+          "title": "AI Visibility",
+          "description": "Traditional SEO tracks keywords. Percepta tracks what AI models actually say about your brand."
+        },
+        {
+          "title": "Competitor Insights",
+          "description": "See how LLMs compare your brand to competitors — across industries and regions."
+        },
+        {
+          "title": "Narrative Control",
+          "description": "Detect misinformation or outdated AI content and guide updates with verified sources."
+        },
+        {
+          "title": "Real-Time Monitoring",
+          "description": "Unlike web crawlers, Percepta queries LLMs live, measuring brand perception continuously."
+        },
+        {
+          "title": "Cross-Model Coverage",
+          "description": "Google Gemini, ChatGPT, Claude, Mistral — your brand should look good everywhere."
+        },
+        {
+          "title": "Business Impact",
+          "description": "Correlate AI perception scores with real business outcomes and trust metrics."
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "label": "Features",
+      "title": "Built for Brand and Growth Teams",
+      "subtitle": "Everything you need to track, measure, and influence AI visibility",
+      "bullets": [
+        "Live AI Query Engine — Continuously test what LLMs say about your company.",
+        "Competitor Benchmarking — Compare brand tone, mentions, and accuracy side by side.",
+        "Perception Analytics — Measure how AI ranks your credibility, trust, and relevance.",
+        "Alert System — Get notified when models mention outdated or incorrect data.",
+        "LLM Optimization Toolkit — Generate model-friendly content and citations for AI retraining pipelines."
+      ]
+    },
+    {
+      "id": "how_it_works",
+      "label": "How It Works",
+      "title": "From Query to Insight",
+      "text": "Percepta continuously queries top LLMs with real-world prompts, aggregates brand responses, and ranks results by tone, accuracy, and visibility. You get a dashboard that shows your perception footprint and opportunities to improve it.",
+      "images": [
+        { "url": "/step1.png", "alt": "Connect Your Brand Sources" },
+        { "url": "/step2.png", "alt": "Run LLM Queries Across Models" },
+        { "url": "/step3.png", "alt": "View Insights and Recommendations" }
+      ]
+    },
+    {
+      "id": "cta_section",
+      "label": "Get Started",
+      "title": "Join the LLM SEO Beta",
+      "text": "We’re working with select marketing, PR, and SEO teams to shape the future of brand visibility in AI-driven search. Apply now to join our closed beta and gain early access to perception analytics.",
+      "button_text": "Request Early Access",
+      "redirect_url": "#cta_section",
+      "form_fields": {
+        "hear_about_options": [
+          { "value": "", "label": "Select an option" },
+          { "value": "linkedin", "label": "LinkedIn" },
+          { "value": "referral", "label": "Referral or Partner" },
+          { "value": "article", "label": "AI Marketing Article" },
+          { "value": "conference", "label": "Conference or Talk" },
+          { "value": "search", "label": "Search Engine" },
+          { "value": "other", "label": "Other" }
+        ],
+        "position_options": [
+          { "value": "", "label": "Select your role" },
+          { "value": "marketing-director", "label": "Marketing Director" },
+          { "value": "seo-manager", "label": "SEO Manager" },
+          { "value": "brand-strategist", "label": "Brand Strategist" },
+          { "value": "communications-lead", "label": "Communications Lead" },
+          { "value": "data-analyst", "label": "Data Analyst" },
+          { "value": "founder", "label": "Founder / CEO" },
+          { "value": "other", "label": "Other" }
+        ],
+        "labels": {
+          "name": "Full Name",
+          "email": "Work Email",
+          "company": "Company / Organization",
+          "position": "Your Role",
+          "hear_about": "How did you hear about Percepta?",
+          "use_case": "What do you hope to measure or achieve?"
+        },
+        "placeholders": {
+          "name": "Jane Doe",
+          "email": "jane@brand.com",
+          "company": "Your company name",
+          "use_case": "Tell us how you plan to use Percepta — tracking, PR, LLM optimization..."
+        },
+        "privacy_text": "By submitting this form, you agree to receive updates from Percepta. We’ll never sell or share your data.",
+        "privacy_notice": "Your privacy is important to us. All brand query data is anonymized and securely stored. You control your API keys and access."
+      }
+    },
+    {
+      "id": "comparison_tables",
+      "label": "The Comparison",
+      "title": "Why Percepta Wins",
+      "tables": [
+        {
+          "title": "Percepta vs. Traditional SEO Platforms",
+          "column_headers": ["", "Traditional SEO", "Percepta"],
+          "rows": [
+            {
+              "feature": "Data Source",
+              "competitor": "Search engine rankings and backlinks.",
+              "studiobox": "Real-time LLM query results from ChatGPT, Claude, Gemini, and more."
+            },
+            {
+              "feature": "Focus",
+              "competitor": "Keyword visibility and CTR metrics.",
+              "studiobox": "Brand perception, tone, and factual representation in AI models."
+            },
+            {
+              "feature": "Update Speed",
+              "competitor": "Slow crawl-based indexing cycles.",
+              "studiobox": "Live model querying and perception monitoring."
+            },
+            {
+              "feature": "Competitor Insights",
+              "competitor": "Limited to keyword overlap.",
+              "studiobox": "Cross-brand perception benchmarking in LLM outputs."
+            },
+            {
+              "feature": "Optimization",
+              "competitor": "Manual content tweaks for Google.",
+              "studiobox": "AI-tuned recommendations and source injection tools."
+            },
+            {
+              "feature": "Future Readiness",
+              "competitor": "Web-centric.",
+              "studiobox": "AI-first visibility engine for the next decade of search."
+            }
+          ]
+        },
+        {
+          "title": "Percepta vs. LLM Monitoring Tools",
+          "column_headers": ["", "Generic LLM Tools", "Percepta"],
+          "rows": [
+            {
+              "feature": "Use Case",
+              "competitor": "Focus on prompt testing and accuracy.",
+              "studiobox": "Designed for SEO, PR, and brand teams."
+            },
+            {
+              "feature": "Metrics",
+              "competitor": "Token and latency tracking.",
+              "studiobox": "Brand tone, trust, factual accuracy, and visibility score."
+            },
+            {
+              "feature": "Coverage",
+              "competitor": "One model or dataset at a time.",
+              "studiobox": "Unified dashboard for all top LLMs."
+            },
+            {
+              "feature": "Insights",
+              "competitor": "Developer-focused outputs.",
+              "studiobox": "Readable insights and exportable reports for executives."
+            },
+            {
+              "feature": "Automation",
+              "competitor": "Manual queries required.",
+              "studiobox": "Scheduled queries and alert automation."
+            },
+            {
+              "feature": "Integration",
+              "competitor": "APIs only.",
+              "studiobox": "Native dashboards, CSV exports, and Slack alerts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testers_testimonials",
+      "label": "Testimonials",
+      "title": "What Our Early Users Say",
+      "items": [
+        {
+          "name": "Michael Torres",
+          "role": "Head of SEO, SaaS Platform",
+          "content": "Percepta showed us how ChatGPT ranked our competitors — insights we’d never seen before.",
+          "avatar": "MT"
+        },
+        {
+          "name": "Sarah Kim",
+          "role": "Director of Communications",
+          "content": "It’s like Google Search Console for AI models. We now track brand perception in real time.",
+          "avatar": "SK"
+        },
+        {
+          "name": "David Chen",
+          "role": "Marketing Analyst",
+          "content": "The Perception Score is brilliant. We use it to brief PR and update website copy monthly.",
+          "avatar": "DC"
+        },
+        {
+          "name": "Emily Rodriguez",
+          "role": "VP, Brand Strategy",
+          "content": "Finally a tool that connects AI reputation with marketing performance.",
+          "avatar": "ER"
+        },
+        {
+          "name": "James Wilson",
+          "role": "CMO",
+          "content": "Percepta helped us turn LLMs into a measurable, improvable channel — not a mystery.",
+          "avatar": "JW"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "label": "FAQ",
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is LLM SEO?",
+          "answer": "LLM SEO focuses on how AI models describe your brand instead of how search engines rank it. It’s the future of brand visibility."
+        },
+        {
+          "question": "Which models does Percepta monitor?",
+          "answer": "Currently: ChatGPT, Claude, Gemini, Mistral, and Perplexity. We’re expanding coverage monthly."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes. Queries are anonymized and encrypted. We never store sensitive brand or client data."
+        },
+        {
+          "question": "Who should use Percepta?",
+          "answer": "Marketing teams, agencies, and PR firms who want to understand and influence how AI talks about them."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "text": "© 2025 Percepta — The LLM SEO Platform",
+    "nav_links": [
+      { "label": "Features", "url": "#features" },
+      { "label": "How It Works", "url": "#how-it-works" },
+      { "label": "FAQ", "url": "#faq" },
+      { "label": "Join Beta", "url": "#cta_section" },
+      { "label": "Privacy", "url": "/privacy" },
+      { "label": "Terms", "url": "/terms" }
+    ]
+  }
+}

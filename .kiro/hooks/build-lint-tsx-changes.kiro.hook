@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "Build and Lint TSX Changes",
+  "description": "Automatically builds and lints the codebase when more than 5 TSX files are modified",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "**/*.tsx"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "More than 5 TSX files have been changed. Please run the build command (npm run build or next build) and then run the linting command (npm run lint or next lint) to ensure code quality and that the project builds successfully. Report any errors or warnings found."
+  }
+}

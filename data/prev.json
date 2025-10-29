@@ -1,0 +1,515 @@
+{
+  "metadata": {
+    "title": "StudioBox - Offline-Resilient Stage Timing for Professionals",
+    "description": "Sync your timer, cue light, and pedal — even when Wi-Fi fails. Professional stage timing system with local network sync, zero latency, and offline operation for live events, broadcast, and theater.",
+    "keywords": "stage timing, cue light, timer sync, offline timing system, professional stage equipment, live event timing, broadcast timing, theater timing, local network sync, stage manager tools, technical director equipment, production timing, wireless cue light, foot pedal controller, stage synchronization, touring equipment, AV timing system, performance timing, show control, stage automation",
+    "author": "StudioBox",
+    "og:title": "StudioBox - Offline-Resilient Stage Timing for Professionals",
+    "og:description": "Professional stage timing that works offline. Sync your timer, cue light, and pedal with zero latency — no cloud, no lag, no dropped connections.",
+    "og:type": "website",
+    "og:url": "https://studiobox.com",
+    "og:image": "https://studiobox.com/ui.png",
+    "og:site_name": "StudioBox",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "StudioBox - Offline-Resilient Stage Timing for Professionals",
+    "twitter:description": "Professional stage timing that works offline. Sync your timer, cue light, and pedal with zero latency.",
+    "twitter:image": "https://studiobox.com/ui.png",
+    "canonical": "https://studiobox.com",
+    "robots": "index, follow",
+    "language": "en-US",
+    "revisit-after": "7 days",
+    "category": "Technology, Professional Audio/Video Equipment"
+  },
+  "brand": "StudioBox",
+  "headline": "Offline-Resilient Stage Timing for Professionals",
+  "subheadline": "Sync your timer, cue light, and pedal — even when Wi-Fi fails.",
+  "hero_cta_primary": "Pre-Order Beta Unit",
+  "hero_cta_secondary": "Join Waitlist",
+  "hero_cta_redirect_url": "#cta_section",
+  "hero_image_url": "/ui.png",
+  "hero_secondary": {
+    "label": "Overview",
+    "title": "Professional Timing, Simplified",
+    "description": "StudioBox eliminates the complexity of traditional stage timing systems. No cloud dependencies, no complicated setup—just reliable, local synchronization that works every time.",
+    "cta_text": "Learn More",
+    "cta_url": "#cta_section",
+    "image_url": ""
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Why StudioBox?",
+      "subtitle": "StudioBox vs. Traditional Systems",
+      "text": "Many professionals have used cloud-based timing systems, but quickly realize they're not designed for mission-critical live events.",
+      "image_url": "",
+      "comparison_points": [
+        {
+          "title": "Offline Operation",
+          "description": "Traditional systems require constant internet connectivity. StudioBox works completely offline with local network sync."
+        },
+        {
+          "title": "Zero Latency",
+          "description": "Cloud systems introduce lag and delays. StudioBox provides instant synchronization across all devices."
+        },
+        {
+          "title": "Simple Setup",
+          "description": "Complex systems need IT support and configuration. StudioBox connects in seconds with zero configuration."
+        },
+        {
+          "title": "Reliable Performance",
+          "description": "Internet-dependent systems fail when Wi-Fi drops. StudioBox keeps running no matter what."
+        },
+        {
+          "title": "Modular Design",
+          "description": "Traditional systems are rigid and expensive. StudioBox adapts to your exact needs with modular components."
+        },
+        {
+          "title": "Professional Grade",
+          "description": "Consumer solutions aren't built for touring. StudioBox is engineered for the demands of professional production."
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "label": "Features",
+      "title": "Built for Professionals",
+      "subtitle": "Everything you need for professional stage timing",
+      "bullets": [
+        "Clock Local Network Sync — Keep all devices perfectly aligned without internet.",
+        "Sliders Modular Control — Combine timer, cue light, and foot pedal as needed.",
+        "Battery Portable & Efficient — Compact hardware powered by a single 5V source.",
+        "Smartphone Simple App Control — Adjust timing and cues from your phone or tablet.",
+        "Settings Built for Pros — Rugged design for touring, broadcast, and stage work."
+      ]
+    },
+    {
+      "id": "how_it_works",
+      "label": "How It Works",
+      "title": "Simple Setup, Instant Sync",
+      "text": "StudioBox acts as your local hub. Connect your devices via Wi-Fi or Ethernet, launch the controller app, and you're instantly in sync. No cloud sign-in. No lag. No dropped connections. Truly turnkey!",
+      "images": [
+        {
+          "url": "",
+          "alt": "Step 1"
+        },
+        {
+          "url": "",
+          "alt": "Step 2"
+        },
+        {
+          "url": "",
+          "alt": "Step 3"
+        }
+      ]
+    },
+    {
+      "id": "cta_section",
+      "label": "Get Started",
+      "title": "Be Part of the Beta",
+      "text": "We're selecting early testers to shape the first production run of StudioBox. Join our early-access list to get updates, contribute feedback, and receive exclusive launch pricing.",
+      "button_text": "Reserve Early Access",
+      "redirect_url": "#cta_section",
+      "form_fields": {
+        "hear_about_options": [
+          {
+            "value": "",
+            "label": "Select an option"
+          },
+          {
+            "value": "search",
+            "label": "Search Engine (Google, Bing, etc.)"
+          },
+          {
+            "value": "social",
+            "label": "Social Media"
+          },
+          {
+            "value": "referral",
+            "label": "Referral from a colleague"
+          },
+          {
+            "value": "event",
+            "label": "Conference or Event"
+          },
+          {
+            "value": "article",
+            "label": "Article or Blog Post"
+          },
+          {
+            "value": "other",
+            "label": "Other"
+          }
+        ],
+        "position_options": [
+          {
+            "value": "",
+            "label": "Select your role"
+          },
+          {
+            "value": "technical-director",
+            "label": "Technical Director"
+          },
+          {
+            "value": "stage-manager",
+            "label": "Stage Manager"
+          },
+          {
+            "value": "production-manager",
+            "label": "Production Manager"
+          },
+          {
+            "value": "lighting-designer",
+            "label": "Lighting Designer"
+          },
+          {
+            "value": "sound-engineer",
+            "label": "Sound Engineer"
+          },
+          {
+            "value": "av-technician",
+            "label": "AV Technician"
+          },
+          {
+            "value": "producer",
+            "label": "Producer"
+          },
+          {
+            "value": "director",
+            "label": "Director"
+          },
+          {
+            "value": "freelancer",
+            "label": "Freelancer"
+          },
+          {
+            "value": "developer",
+            "label": "Software Developer"
+          },
+          {
+            "value": "other",
+            "label": "Other"
+          }
+        ],
+        "labels": {
+          "name": "Full Name",
+          "email": "Email Address",
+          "phone": "Phone Number",
+          "company": "Company / Organization",
+          "hear_about": "How did you hear about StudioBox?",
+          "position": "Your Position / Role",
+          "use_case": "How will you use StudioBox?"
+        },
+        "placeholders": {
+          "name": "John Doe",
+          "email": "john@example.com",
+          "phone": "+1 (555) 000-0000",
+          "company": "Your company name",
+          "use_case": "Tell us about your use case, production environment, and what you hope to achieve with StudioBox..."
+        },
+        "privacy_text": "I agree to receive communications from StudioBox and understand that I can unsubscribe at any time. By submitting this form, I acknowledge that my information will be processed in accordance with StudioBox's Privacy Policy.",
+        "privacy_notice": "We respect your privacy and are committed to protecting your personal information. Your data will be used solely for the purpose of evaluating your beta application and communicating with you about StudioBox. We will never sell or share your information with third parties without your explicit consent. All data is stored securely and in compliance with applicable data protection regulations.",
+        "company_size_options": [
+          {
+            "value": "",
+            "label": "Select size"
+          },
+          {
+            "value": "1",
+            "label": "Just me"
+          },
+          {
+            "value": "2-10",
+            "label": "2–10 people"
+          },
+          {
+            "value": "11-50",
+            "label": "11–50 people"
+          },
+          {
+            "value": "51-200",
+            "label": "51–200 people"
+          },
+          {
+            "value": "200+",
+            "label": "200+ people"
+          }
+        ],
+        "company_size_label": "Company Size",
+        "industry_options": [
+          {
+            "value": "",
+            "label": "Select industry"
+          },
+          {
+            "value": "live-events",
+            "label": "Live Events"
+          },
+          {
+            "value": "broadcast",
+            "label": "Broadcast / TV"
+          },
+          {
+            "value": "theater",
+            "label": "Theater / Performing Arts"
+          },
+          {
+            "value": "education",
+            "label": "Education"
+          },
+          {
+            "value": "corporate",
+            "label": "Corporate AV"
+          },
+          {
+            "value": "house-of-worship",
+            "label": "Church / Worship"
+          },
+          {
+            "value": "film",
+            "label": "Film / Studio"
+          },
+          {
+            "value": "tech",
+            "label": "Technology"
+          },
+          {
+            "value": "other",
+            "label": "Other"
+          }
+        ],
+        "industry_label": "Industry",
+        "goal_options": [
+          {
+            "value": "",
+            "label": "Select goal"
+          },
+          {
+            "value": "sync",
+            "label": "Sync multiple devices"
+          },
+          {
+            "value": "offline",
+            "label": "Work offline"
+          },
+          {
+            "value": "setup",
+            "label": "Simplify setup"
+          },
+          {
+            "value": "upgrade",
+            "label": "Upgrade existing system"
+          },
+          {
+            "value": "experiment",
+            "label": "Exploring new tech"
+          }
+        ],
+        "goal_label": "Primary Goal",
+        "timeline_options": [
+          {
+            "value": "",
+            "label": "Select timeline"
+          },
+          {
+            "value": "now",
+            "label": "ASAP"
+          },
+          {
+            "value": "1-3-months",
+            "label": "Within 1–3 months"
+          },
+          {
+            "value": "6-months",
+            "label": "This year"
+          },
+          {
+            "value": "exploring",
+            "label": "Just exploring"
+          }
+        ],
+        "timeline_label": "When do you need this?",
+        "criticality_label": "How critical is timing reliability to your work?",
+        "criticality_min": 1,
+        "criticality_max": 5,
+        "criticality_description": "1 = Nice-to-have, 5 = Mission-critical",
+        "feedback_opt_in_label": "I'd like to participate in product testing or interviews."
+      }
+    },
+    {
+      "id": "comparison_tables",
+      "label": "The Comparison",
+      "title": "Why StudioBox Wins",
+      "tables": [
+        {
+          "title": "StudioBox vs. Traditional Systems",
+          "column_headers": [
+            "",
+            "Traditional Systems",
+            "StudioBox"
+          ],
+          "rows": [
+            {
+              "feature": "Connectivity",
+              "competitor": "Depend on constant Wi-Fi and internet servers.",
+              "studiobox": "Works fully offline with local sync."
+            },
+            {
+              "feature": "Latency",
+              "competitor": "Cloud hops introduce visible lag.",
+              "studiobox": "Instant, peer-to-peer synchronization."
+            },
+            {
+              "feature": "Setup",
+              "competitor": "Complex installs and network config.",
+              "studiobox": "Plug in and connect in seconds."
+            },
+            {
+              "feature": "Reliability",
+              "competitor": "Fail mid-show if Wi-Fi drops.",
+              "studiobox": "Keeps running no matter what."
+            },
+            {
+              "feature": "Hardware",
+              "competitor": "Bulky, rigid, expensive.",
+              "studiobox": "Modular, compact, adaptable."
+            },
+            {
+              "feature": "Design",
+              "competitor": "Built for legacy setups.",
+              "studiobox": "Designed for modern workflows."
+            }
+          ]
+        },
+        {
+          "title": "StudioBox vs. Modern Cloud SaaS Tools",
+          "column_headers": [
+            "",
+            "SaaS-Only Tools",
+            "StudioBox"
+          ],
+          "rows": [
+            {
+              "feature": "Dependence",
+              "competitor": "Cloud-tethered; useless offline.",
+              "studiobox": "Works anywhere — no servers required."
+            },
+            {
+              "feature": "Subscription Trap",
+              "competitor": "Monthly fees, forced updates.",
+              "studiobox": "One-time purchase or on-prem license."
+            },
+            {
+              "feature": "Performance",
+              "competitor": "Internet-dependent latency and jitter.",
+              "studiobox": "Zero-latency local network sync."
+            },
+            {
+              "feature": "Privacy & Control",
+              "competitor": "Data routed through third-party servers.",
+              "studiobox": "100% local data flow — your network, your rules."
+            },
+            {
+              "feature": "Hardware Integration",
+              "competitor": "Pure software; limited real-world use.",
+              "studiobox": "Integrates with lights, pedals, timers."
+            },
+            {
+              "feature": "Audience",
+              "competitor": "Built for convenience.",
+              "studiobox": "Built for professionals."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testers_testimonials",
+      "label": "Early Feedback",
+      "title": "What Our Alpha Testers Say",
+      "items": [
+        {
+          "name": "Sarah Kim",
+          "role": "Stage Manager, Theater Company",
+          "content": "We tested an early build — the local sync worked flawlessly. Can’t wait for the final release.",
+          "avatar": "SK"
+        },
+        {
+          "name": "David Chen",
+          "role": "Broadcast Engineer",
+          "content": "Simple setup, reliable even in complex environments. Excited to see where this goes.",
+          "avatar": "DC"
+        },
+        {
+          "name": "Laura Mitchell",
+          "role": "Lighting Designer, Touring Production",
+          "content": "StudioBox was plug-and-play from the moment I powered it on. No manuals, no setup — it just worked flawlessly on day one.",
+          "avatar": "LM"
+        },
+        {
+          "name": "Carlos Rivera",
+          "role": "Technical Director, Performing Arts Center",
+          "content": "Even in its alpha version, it performed like a finished product. Rock-solid timing and instant sync across all our gear.",
+          "avatar": "CR"
+        },
+        {
+          "name": "Aisha Patel",
+          "role": "Producer, Live Event Agency",
+          "content": "The first version felt surprisingly polished. We connected three devices and it synced perfectly without a single hiccup.",
+          "avatar": "AP"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "label": "FAQ",
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "Is this available now?",
+          "answer": "We're finalizing our prototype and building a small early-access batch. Sign up to be notified when orders open."
+        },
+        {
+          "question": "Do I need internet to use it?",
+          "answer": "No. That's the point — StudioBox runs a local network that connects your controller, timer, and cue devices offline."
+        },
+        {
+          "question": "Can I integrate existing Elgato or DSAN gear?",
+          "answer": "Yes. We're designing StudioBox to communicate via standard protocols for cue lights and controller pads."
+        },
+        {
+          "question": "Will I be charged for pre-ordering?",
+          "answer": "Not yet. We're only collecting interest to prioritize early production units."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "text": "© 2025 StudioBox Beta Program",
+    "nav_links": [
+      {
+        "label": "Features",
+        "url": "#features"
+      },
+      {
+        "label": "How It Works",
+        "url": "#how-it-works"
+      },
+      {
+        "label": "FAQ",
+        "url": "#faq"
+      },
+      {
+        "label": "Join Beta",
+        "url": "#cta_section"
+      },
+      {
+        "label": "Privacy",
+        "url": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "url": "/terms"
+      }
+    ]
+  }
+}

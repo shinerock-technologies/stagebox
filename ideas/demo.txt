@@ -1,0 +1,49 @@
+Perfect — using your actual UI screenshots is way smarter than wasting time in Figma for this kind of hero mock. Let’s make your landing-page shot look intentional, professional, and story-driven.
+
+🎯 GOAL
+
+We want the screenshot to feel alive — as if it’s mid-show or mid-production.
+So each timer, message, and clock value should suggest a real-world use case, not random filler.
+
+🕐 Clock
+
+Keep the clock realistic but neutral — 10:14:36 AM or 2:45:20 PM are great.
+They read cleanly, sit well visually (no big repeated numbers like 11:11), and fit both demo & production vibes.
+→ Set it to: 10:14:36 AM America/New_York
+
+⏱ Timer Names + Durations
+
+Make them look like a real production or event sequence (e.g., a conference, rehearsal, or broadcast).
+Keep durations visually balanced — around 5–15 minutes each.
+
+Timer	Name	Duration	Notes
+Timer 1	Opening Remarks	05:00	Short intro or setup
+Timer 2	Keynote Presentation	15:00	Main event block
+Timer 3	Panel Discussion	10:00	Interactive section
+Timer 4	Audience Q&A	08:00	Optional Q&A slot
+Timer 5	Break / Transition	05:00	Reset stage or gear
+Timer 6	Closing Announcements	03:00	Wrap-up countdown
+
+💡 Bonus detail: Have one of them “Paused” (like your current Timer 3) — it implies active use.
+
+💬 Messages (Right Panel)
+
+Messages should sound like real, short production cues — clear, direct, professional.
+
+Message	Example
+1	“Stage lights ready ✅”
+2	“Switch to camera 2 in 10 seconds”
+3	“Extend Q&A by 2 minutes”
+4	“Mic 3 battery low ⚡”
+5	“All clear — go for outro music 🎵”
+
+💡 Tip: Have one “message” half-typed in the input box, like:
+
+“Reminder: Next speaker in…”
+It adds realism, like someone is mid-coordination.
+
+🧠 Composition Tips
+
+Make Timer 3 (Panel Discussion) highlighted — it looks active and draws the eye.
+
+Keep “Paused” state visible — reinforces control & reliability.

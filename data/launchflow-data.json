@@ -1,0 +1,278 @@
+{
+  "metadata": {
+    "title": "LaunchFlow - Instant AI Landing Pages That Convert",
+    "description": "Turn a single prompt into a polished, lead-ready website. LaunchFlow automates copy, design, and deployment — in seconds."
+  },
+  "brand": "LaunchFlow",
+  "headline": "Instant Landing Pages from a Single Prompt",
+  "subheadline": "Generate, customize, and deploy high-converting splash pages — instantly.",
+  "hero_cta_primary": "Generate My Page",
+  "hero_cta_secondary": "See Examples",
+  "hero_cta_redirect_url": "#cta_section",
+  "hero_image_url": "/launchflow-hero.png",
+  "hero_secondary": {
+    "label": "Overview",
+    "title": "AI Websites That Work — Instantly",
+    "description": "LaunchFlow builds your landing page from a single sentence. Describe your product, and we handle the rest — branding, layout, copy, and lead capture — ready to launch or export to your favorite platform.",
+    "cta_text": "Try the Demo",
+    "cta_url": "#cta_section",
+    "image_url": "/overview.png"
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Why LaunchFlow?",
+      "subtitle": "From Idea to Live Page in Under a Minute",
+      "text": "Stop wasting hours designing, writing, and configuring lead forms. LaunchFlow automates everything you need to validate your next idea or campaign.",
+      "image_url": "",
+      "comparison_points": [
+        {
+          "title": "Prompt to Page",
+          "description": "Describe your idea in plain English. LaunchFlow generates the full page — hero, benefits, CTA, and form."
+        },
+        {
+          "title": "Instant Hosting",
+          "description": "Your page is instantly hosted with a shareable link — no setup required."
+        },
+        {
+          "title": "Auto Copywriting",
+          "description": "Get optimized headlines, subtext, and CTAs tailored for conversions using AI-trained landing data."
+        },
+        {
+          "title": "Auto Design",
+          "description": "LaunchFlow adapts colors, layout, and imagery to your brand or audience type."
+        },
+        {
+          "title": "Lead Capture Built-In",
+          "description": "Every page includes forms and analytics out of the box — start collecting leads right away."
+        },
+        {
+          "title": "Editable Anywhere",
+          "description": "Fine-tune your copy or design live with our visual editor or export clean HTML to Vercel, Webflow, or Framer."
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "label": "Features",
+      "title": "Your Page, Done for You",
+      "subtitle": "Everything you need to go from idea to launch instantly",
+      "bullets": [
+        "Prompt-Based Page Builder — Just describe your idea, and get a complete site in seconds.",
+        "AI Copy & Layout Generator — Smart sections, visuals, and lead magnets optimized for conversion.",
+        "One-Click Hosting — Instantly publish and share with built-in SSL and analytics.",
+        "Integrated Form System — Capture leads automatically and sync with Google Sheets, Notion, or CRM tools.",
+        "Editable Exports — Download static HTML or push directly to your favorite hosting platform."
+      ]
+    },
+    {
+      "id": "how_it_works",
+      "label": "How It Works",
+      "title": "From Prompt to Profit in Three Steps",
+      "text": "LaunchFlow transforms your idea into a live, optimized landing page in seconds. You focus on your product — we handle everything else.",
+      "images": [
+        { "url": "/step1.png", "alt": "Step 1 — Describe Your Product" },
+        {
+          "url": "/step2.png",
+          "alt": "Step 2 — AI Generates Copy, Design, and Form"
+        },
+        {
+          "url": "/step3.png",
+          "alt": "Step 3 — Publish and Start Getting Leads"
+        }
+      ]
+    },
+    {
+      "id": "cta_section",
+      "label": "Get Started",
+      "title": "Launch Your Page Instantly",
+      "text": "Say goodbye to design tools, templates, and copywriting blocks. Just describe your idea — we’ll make it real.",
+      "button_text": "Generate My Landing Page",
+      "redirect_url": "#cta_section",
+      "form_fields": {
+        "hear_about_options": [
+          { "value": "", "label": "Select an option" },
+          { "value": "twitter", "label": "Twitter / X" },
+          { "value": "producthunt", "label": "Product Hunt" },
+          { "value": "referral", "label": "Referral" },
+          { "value": "article", "label": "Article or Blog" },
+          { "value": "search", "label": "Search Engine" },
+          { "value": "other", "label": "Other" }
+        ],
+        "position_options": [
+          { "value": "", "label": "Select your role" },
+          { "value": "founder", "label": "Founder / Indie Hacker" },
+          { "value": "marketer", "label": "Marketer" },
+          { "value": "designer", "label": "Designer" },
+          { "value": "developer", "label": "Developer" },
+          { "value": "agency", "label": "Agency / Client Work" },
+          { "value": "other", "label": "Other" }
+        ],
+        "labels": {
+          "name": "Full Name",
+          "email": "Email Address",
+          "idea": "Describe Your Idea",
+          "hear_about": "How did you hear about LaunchFlow?",
+          "position": "Your Role"
+        },
+        "placeholders": {
+          "name": "Jane Doe",
+          "email": "jane@startup.com",
+          "idea": "Example: A tool that helps podcasters schedule guests automatically..."
+        },
+        "privacy_text": "By submitting, you agree to receive LaunchFlow updates. We’ll only email you with product information or your generated pages.",
+        "privacy_notice": "We respect your privacy — your prompts and generated pages are private unless you choose to share them. Data is stored securely and never sold."
+      }
+    },
+    {
+      "id": "comparison_tables",
+      "label": "The Comparison",
+      "title": "Why LaunchFlow Wins",
+      "tables": [
+        {
+          "title": "LaunchFlow vs. Traditional Builders",
+          "column_headers": ["", "Traditional Tools", "LaunchFlow"],
+          "rows": [
+            {
+              "feature": "Setup Time",
+              "competitor": "Hours of manual editing.",
+              "studiobox": "One prompt, one click — ready in seconds."
+            },
+            {
+              "feature": "Copywriting",
+              "competitor": "Write and test everything yourself.",
+              "studiobox": "AI-generated, conversion-tested messaging."
+            },
+            {
+              "feature": "Design",
+              "competitor": "Requires templates, assets, and styling.",
+              "studiobox": "Auto-styled layouts tailored to your idea."
+            },
+            {
+              "feature": "Hosting",
+              "competitor": "Requires setup and domain configuration.",
+              "studiobox": "Instant hosting with a shareable URL."
+            },
+            {
+              "feature": "Lead Capture",
+              "competitor": "Requires third-party forms and integrations.",
+              "studiobox": "Forms and CRM sync included by default."
+            },
+            {
+              "feature": "Iteration Speed",
+              "competitor": "Manually redesign every test variant.",
+              "studiobox": "Generate multiple variants instantly."
+            }
+          ]
+        },
+        {
+          "title": "LaunchFlow vs. AI Website Generators",
+          "column_headers": ["", "Generic AI Builders", "LaunchFlow"],
+          "rows": [
+            {
+              "feature": "Focus",
+              "competitor": "Generic multipage websites.",
+              "studiobox": "Optimized one-pagers designed to convert."
+            },
+            {
+              "feature": "Conversion Optimization",
+              "competitor": "No lead strategy.",
+              "studiobox": "CTA-driven structure and analytics baked in."
+            },
+            {
+              "feature": "Speed",
+              "competitor": "Takes minutes or manual editing.",
+              "studiobox": "Instantly deploys and hosts on completion."
+            },
+            {
+              "feature": "Customization",
+              "competitor": "Limited design control.",
+              "studiobox": "Live editor with brand colors and typography."
+            },
+            {
+              "feature": "Integrations",
+              "competitor": "Few export options.",
+              "studiobox": "Export to Vercel, Webflow, Framer, or Notion."
+            },
+            {
+              "feature": "Lead-Ready",
+              "competitor": "No form system.",
+              "studiobox": "Built-in form, analytics, and CRM sync."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testers_testimonials",
+      "label": "Testimonials",
+      "title": "What Our Early Users Say",
+      "items": [
+        {
+          "name": "Michael Torres",
+          "role": "Indie Hacker",
+          "content": "I created three test landing pages in under 10 minutes. Two started getting signups the same day.",
+          "avatar": "MT"
+        },
+        {
+          "name": "Sarah Kim",
+          "role": "Marketing Consultant",
+          "content": "LaunchFlow is my new secret weapon for client MVPs — I can ship in hours, not days.",
+          "avatar": "SK"
+        },
+        {
+          "name": "David Chen",
+          "role": "Founder, SaaS Startup",
+          "content": "The copywriting engine nailed my tone of voice better than any freelancer I’ve hired.",
+          "avatar": "DC"
+        },
+        {
+          "name": "Emily Rodriguez",
+          "role": "Designer",
+          "content": "It’s like having a personal webflow, copywriter, and marketer rolled into one.",
+          "avatar": "ER"
+        },
+        {
+          "name": "James Wilson",
+          "role": "Agency Owner",
+          "content": "We generate landing pages for campaigns in seconds — it’s an absolute productivity boost.",
+          "avatar": "JW"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "label": "FAQ",
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What does LaunchFlow actually do?",
+          "answer": "LaunchFlow generates, designs, and hosts a fully functional landing page from a single prompt — ready to collect leads."
+        },
+        {
+          "question": "Can I edit my generated page?",
+          "answer": "Yes. You can tweak text, images, colors, and layout in our live editor or export the HTML to your preferred platform."
+        },
+        {
+          "question": "How do I collect leads?",
+          "answer": "Each page includes a working lead form connected to your email, Google Sheets, or CRM. No setup required."
+        },
+        {
+          "question": "Is it free?",
+          "answer": "LaunchFlow has a free tier for basic pages and a pro plan for custom domains, analytics, and integrations."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "text": "© 2025 LaunchFlow — AI Landing Pages That Convert",
+    "nav_links": [
+      { "label": "Features", "url": "#features" },
+      { "label": "How It Works", "url": "#how-it-works" },
+      { "label": "FAQ", "url": "#faq" },
+      { "label": "Generate Page", "url": "#cta_section" },
+      { "label": "Privacy", "url": "/privacy" },
+      { "label": "Terms", "url": "/terms" }
+    ]
+  }
+}
