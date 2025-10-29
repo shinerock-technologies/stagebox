@@ -5,7 +5,8 @@ import { Resend } from "resend";
 const sql = neon(process.env.NEON_DATABASE_URL || process.env.DATABASE_URL!);
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export const runtime = "edge"; // fast & cheap
+// Removed edge runtime - Resend needs Node.js runtime
+// export const runtime = "edge";
 
 export async function POST(req: NextRequest) {
   try {
@@ -58,9 +59,20 @@ export async function POST(req: NextRequest) {
 
     // Send email notification
     try {
-      await resend.emails.send({
+      // In dev, Resend only allows sending to your own email (abyiber.dev@gmail.com)
+      // In production, send to ALERT_TO
+      const isDev = process.env.NODE_ENV === "development";
+      const toEmail = isDev
+        ? "abyiber.dev@gmail.com"
+        : process.env.ALERT_TO || "shinerock.technologies@gmail.com";
+
+      console.log("🔄 Attempting to send email...");
+      console.log("Environment:", process.env.NODE_ENV);
+      console.log("To:", toEmail);
+
+      const result = await resend.emails.send({
         from: process.env.ALERT_FROM || "onboarding@resend.dev",
-        to: process.env.ALERT_TO || "shinerock.technologies@gmail.com",
+        to: toEmail,
         subject: `New Lead: ${name}`,
         html: `
           <h2>New Lead Submission</h2>
@@ -74,8 +86,10 @@ export async function POST(req: NextRequest) {
           <p style="color: #666; font-size: 12px;">Submitted at ${new Date().toLocaleString()}</p>
         `,
       });
+
+      console.log("✅ Email sent successfully:", result);
     } catch (emailError) {
-      console.error("Failed to send email:", emailError);
+      console.error("❌ Failed to send email:", emailError);
       // Don't fail the request if email fails
     }
 
