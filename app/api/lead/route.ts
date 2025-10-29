@@ -1,6 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
 import { neon } from "@neondatabase/serverless";
 import { Resend } from "resend";
+import {
+  getAdminNotificationEmail,
+  getUserConfirmationEmail,
+} from "@/lib/email-templates";
 
 const sql = neon(process.env.NEON_DATABASE_URL || process.env.DATABASE_URL!);
 const resend = new Resend(process.env.RESEND_API_KEY);
@@ -57,37 +61,49 @@ export async function POST(req: NextRequest) {
       )
     `;
 
-    // Send email notification
+    // Send email notifications
     try {
-      // In dev, Resend only allows sending to your own email (abyiber.dev@gmail.com)
-      // In production, send to ALERT_TO
       const isDev = process.env.NODE_ENV === "development";
-      const toEmail = isDev
+      const adminEmail = isDev
         ? "abyiber.dev@gmail.com"
         : process.env.ALERT_TO || "shinerock.technologies@gmail.com";
 
-      console.log("🔄 Attempting to send email...");
+      console.log("🔄 Attempting to send emails...");
       console.log("Environment:", process.env.NODE_ENV);
-      console.log("To:", toEmail);
 
-      const result = await resend.emails.send({
-        from: process.env.ALERT_FROM || "onboarding@resend.dev",
-        to: toEmail,
-        subject: `New Lead: ${name}`,
-        html: `
-          <h2>New Lead Submission</h2>
-          <p><strong>Name:</strong> ${name}</p>
-          <p><strong>Email:</strong> ${email}</p>
-          <p><strong>Position:</strong> ${position}</p>
-          <p><strong>Use Case:</strong></p>
-          <p>${useCase}</p>
-          <p><strong>Source:</strong> ${source || "Direct"}</p>
-          <hr />
-          <p style="color: #666; font-size: 12px;">Submitted at ${new Date().toLocaleString()}</p>
-        `,
+      // Send admin notification
+      const adminTemplate = getAdminNotificationEmail({
+        name,
+        email,
+        position,
+        useCase,
+        source,
       });
 
-      console.log("✅ Email sent successfully:", result);
+      const adminResult = await resend.emails.send({
+        from: process.env.ALERT_FROM || "onboarding@resend.dev",
+        to: adminEmail,
+        subject: adminTemplate.subject,
+        html: adminTemplate.html,
+      });
+
+      console.log("✅ Admin email sent:", adminResult);
+
+      // Send user confirmation email
+      const userTemplate = getUserConfirmationEmail({
+        name,
+        position,
+        useCase,
+      });
+
+      const userResult = await resend.emails.send({
+        from: process.env.ALERT_FROM || "onboarding@resend.dev",
+        to: email,
+        subject: userTemplate.subject,
+        html: userTemplate.html,
+      });
+
+      console.log("✅ User confirmation email sent:", userResult);
     } catch (emailError) {
       console.error("❌ Failed to send email:", emailError);
       // Don't fail the request if email fails
